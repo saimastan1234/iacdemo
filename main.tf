@@ -9,6 +9,6 @@ module "my_vcn2"{
     source="./vcn_modules"
     compartment_id=var.compartment_ocid
     cidr_block="172.16.0.0/16"
-    dns_label="vcn2"
-    display_name="vcn2"
+    dns_label="vcn3"
+    display_name="vcn3"
 }
